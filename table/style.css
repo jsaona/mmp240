@@ -1,0 +1,28 @@
+table, th, td{
+    border: 5px solid blue;
+    border-collapse: collapse;
+    width: 500px;
+    line-height: 30px;
+    color: black;
+
+}
+
+th{
+    text-align: left;
+}
+
+body{
+    background-color: lightblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+caption{
+    font-weight: bold;
+    font-size: 30px;
+}
