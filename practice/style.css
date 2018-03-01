@@ -1,0 +1,32 @@
+#container{
+  
+    margin: auto;
+    
+}
+
+h1{
+    font-family: helvetica;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+body{
+    background-image: url(mountain.jpg);
+    background-size: cover;
+}
+
+p{
+/*    background-color: white;*/
+    max-width: 500px;
+    line-height: 25px;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: helvetica;
+}
+
+a:visited{
+    color:aqua;
+}
