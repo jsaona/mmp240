@@ -1,0 +1,46 @@
+#flexbox {
+	display: flex;
+	background-color: steelblue;
+}
+
+#flexbox > div {
+	background-color: lightgrey;
+	margin: 10px;
+	padding: 10px;
+	font-size: 40px;
+
+}
+
+
+#transition {
+	background-image: url("images/building.jpg");
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+}
+
+#transition:hover {
+	transform: scale(1.5);
+	transition: all 3s;
+}
+
+#animation {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: relative;
+	animation-name: color-move;
+	animation-duration: 5s;
+	animation-iteration-count: 3;
+
+}
+
+@keyframes color-move {
+	/* first and last frame must be the same for perfect loop */
+	0% {background-color: red;}
+	25%{background-color: yellow;}
+	50%{background-color: blue;}
+	75%{background-color: green;}
+	100%{background-color: red;}
+
+}
