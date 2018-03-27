@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+h1 portfolio {
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+}
+
+nav a {
+    color: #f4eeee;
+    background: #000;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 8px;
+    transition: all .5s;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-left: 15px;
+
+
+}
+
+li {
+    display: inline;
+    padding: 10px;
+
+}
+
+nav a:hover {
+    background: #ddd4d4;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    background: url(/media/nyc.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: 500;
+    color: inherit;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-top: 250px;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+nav {
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+}
+
+/*ABOUT ME*/
+
+.about-me {
+    line-height: 1.5;
+    font-family: 'helvetica';
+    font-size: 20px;
+    width: 500px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 400px;
+    margin: 0 auto;
+}
+
+.About-picture {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    float: left;
+    margin-left: 70px;
+}
+
+img {
+    margin: 0 auto;
+    margin-left: 50px;
+    transform: scale(1.03);
+    transition: all 3s;
+}
+
+/*FOOTER*/
+
+footer {
+    color: white;
+    padding-top: 250px;
+}
+
+footer a:visited {
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+}
