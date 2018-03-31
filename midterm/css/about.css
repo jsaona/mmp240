@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+/*ABOUT ME*/
+
+.about-me {
+    line-height: 1.5;
+    font-family: 'helvetica';
+    font-size: 20px;
+    width: 500px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 400px;
+    margin: 0 auto;
+}
+
+.About-picture {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    float: left;
+    margin-left: 70px;
+    padding-left: 150px;
+
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
+
+img {
+    margin: 0 auto;
+    margin-left: 50px;
+    transform: scale(1.03);
+    transition: all 3s;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    color: inherit;
+    font-size: 35px;
+    text-transform: uppercase;
+
+}
+
+/*NAV*/
+
+nav a {
+    color: #f4eeee;
+    background: #000;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 8px;
+    transition: all .5s;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+
+
+
+}
+
+nav {
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+
+}
+
+nav a:hover {
+    background: #ddd4d4;
+
+}
+
+/*FOOTER*/
+
+a:hover {
+    color: aqua;
+}
+
+a:link {
+    color: aqua;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.65em;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
