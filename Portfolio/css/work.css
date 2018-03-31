@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 
 /*ASSIGNMENTS*/
+
 .assignments-section {
     background: white;
 
@@ -23,15 +25,15 @@ h4 {
     color: black;
     width: 350px;
     font-size: 16px;
+    font-family: 'roboto', sans-serif;
 }
 
-/*
-#assignments {
-    color: black;
-    font-size: 40px;
-    padding: 20px;
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
 }
-*/
+
 
 
 /* Clear floats after the columns */
@@ -45,15 +47,16 @@ h4 {
 h1 {
     text-align: center;
     padding: 50px 0;
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     margin: 0;
     color: inherit;
     font-size: 35px;
-    text-transform: uppercase
+    text-transform: uppercase;
+
 }
 
 /*NAV*/
-
 
 nav a {
     color: #f4eeee;
@@ -66,9 +69,12 @@ nav a {
     padding: 5px;
     margin-left: 15px;
     font-family: 'Roboto', sans-serif;
+}
 
-
-
+nav {
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
 }
 
 li {
@@ -85,18 +91,36 @@ nav a:hover {
 img {
     margin: 0 auto;
     margin-left: 50px;
-    transform: scale(1.03);
-    transition: all 3s;
+    transition: all 1s ease;
+
 }
+
+img:hover {
+    opacity: 0.5;
+}
+
 
 /*FOOTER*/
 
-footer {
-    color: black;
+a:hover {
+    color: aqua;
 }
 
-footer a:visited {
+a:link {
+    color: aqua;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
     color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.65em;
+    text-transform: uppercase;
 
 }
 

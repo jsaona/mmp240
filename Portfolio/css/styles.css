@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
-h1 portfolio {
-    font-family: 'Roboto' , sans-serif;
-    font-weight: 400;
-}
 
 nav a {
     color: #f4eeee;
@@ -15,8 +12,21 @@ nav a {
     text-transform: uppercase;
     padding: 5px;
     margin-left: 15px;
+}
 
+.column {
+    float: left;
+    width: 300px;
+    padding: 10px;
+    height: 450px;
+    margin-left: 75px;
+    padding-left: 100px;
+}
 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 li {
@@ -26,20 +36,22 @@ li {
 }
 
 nav a:hover {
-    background: #ddd4d4;
+    background: white;
 
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     width: 100%;
-    background: url(/media/nyc.jpg) no-repeat center center fixed;
+    background: url(../media/nyc.jpg) no-repeat center center fixed;
     background-size: cover;
     color: white;
     text-align: center;
-
-
+    margin: 0;
+    height: 100%;
+    overflow: hidden
 }
+
 
 h1 {
     text-align: center;
@@ -47,7 +59,9 @@ h1 {
     color: inherit;
     font-size: 50px;
     text-transform: uppercase;
-    padding-top: 250px;
+    padding-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 
 h3 {
@@ -58,6 +72,7 @@ nav {
     margin: 0 auto;
     text-align: center;
     position: fixed;
+    padding-bottom: 10px;
 }
 
 /*ABOUT ME*/
@@ -86,20 +101,37 @@ nav {
 img {
     margin: 0 auto;
     margin-left: 50px;
-    transform: scale(1.03);
-    transition: all 3s;
+    transition: all 1s ease;
+
+}
+
+img:hover {
+    transform: rotateY(180deg);
+    opacity: 0.5;
+    transform: scale(1.2);
 }
 
 /*FOOTER*/
 
-footer {
-    color: white;
-    padding-top: 250px;
+a:hover {
+    color: aqua;
 }
 
-footer a:visited {
-    color: white;
+a:link {
+    color: aqua;
+}
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.65em;
+    text-transform: uppercase;
 }
 
 a {
