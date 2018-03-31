@@ -32,11 +32,6 @@ body {
     overflow: hidden
 }
 
-img {
-    margin: 0 auto;
-    margin-left: 50px;
-}
-
 h1 {
     text-align: center;
     padding: 50px 0;
