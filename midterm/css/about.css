@@ -35,8 +35,6 @@ body {
 img {
     margin: 0 auto;
     margin-left: 50px;
-    transform: scale(1.03);
-    transition: all 3s;
 }
 
 h1 {
@@ -88,11 +86,10 @@ nav a:hover {
 
 /*FOOTER*/
 
-a:hover {
+a:link {
     color: aqua;
 }
-
-a:link {
+a:hover {
     color: aqua;
 }
 
