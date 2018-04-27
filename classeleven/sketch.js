@@ -1,6 +1,7 @@
 var ball = [];
 var img;
 var slider;
+var move = true;
 
 function preload() {
     img = loadImage('images/ball.png');
@@ -8,7 +9,7 @@ function preload() {
 
 
 function setup() {
-    slider = createSlider(0,360);
+    slider = createSlider(0,75);
     createCanvas(800, 500);
     for (var i = 0; i < 10; i++) {
         ball.push(new Ball(random(350), random(300)));
@@ -24,17 +25,18 @@ function draw() {
 //    (slider.value(),100,100);
     background("black");
     for (var i = 0; i < ball.length; i++) {
-        ball[i].move();
-        ball[i].show();        
+        
+        if(move == true){
+            ball[i].move();
+            
+        }
+        ball[i].show();
+        ball[i].speed = slider.value();        
     }
 }
 
 function start() {
-    if(ball == img) {
-		ball = img;
-	} else {
-		ball = img;
-	}
+    move = false 
 }
 
 // Ball class
